@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="#7c3aed">
-    <title>💰 Controle de Gastos</title>
+    <title>💰 Monitoramento de Gastos para Professores</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZH4B5W6B20"></script>
     <script>
@@ -128,7 +128,8 @@
             min-width: 0;
         }
         .hdr-logo { font-size: 1.5rem; flex-shrink: 0; }
-        .hdr-title { white-space: nowrap; }
+        .hdr-title { white-space: nowrap; line-height: 1.1; }
+        .hdr-subtitle { font-size: .65rem; font-weight: 500; opacity: .78; white-space: nowrap; }
         .hdr-center {
             flex: 1;
             display: flex;
@@ -611,8 +612,8 @@
 <div id="cpf-screen">
     <div class="cpf-card">
         <div class="cpf-logo">💰</div>
-        <h1 class="cpf-title">Controle de Gastos</h1>
-        <p class="cpf-subtitle">Veja exatamente para onde vai o seu dinheiro,<br>de forma simples e organizada.</p>
+        <h1 class="cpf-title">Monitoramento de Gastos para Professores</h1>
+        <p class="cpf-subtitle">Por Paola Feio<br><br>Veja exatamente para onde vai o seu dinheiro,<br>de forma simples e organizada.</p>
 
         <label class="cpf-label" for="cpf-input">Seu CPF</label>
         <input type="text" class="cpf-input" id="cpf-input"
@@ -636,7 +637,10 @@
     <header class="app-header">
         <div class="hdr-left">
             <span class="hdr-logo">💰</span>
-            <span class="hdr-title">Controle de Gastos</span>
+            <div>
+                <div class="hdr-title">Monitoramento de Gastos para Professores</div>
+                <div class="hdr-subtitle">Por Paola Feio</div>
+            </div>
         </div>
         <div class="hdr-center">
             <div class="month-nav">
